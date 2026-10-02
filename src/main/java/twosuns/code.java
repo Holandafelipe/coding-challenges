@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 // Impl O(n) solution using recursion
 
 // problem explanation -> https://leetcode.com/problems/two-sum/description/
@@ -19,7 +21,7 @@
 // Input: nums = [3,3], target = 6
 // Output: [0,1]
 
-class Solution {
+class SolutionTwoSum {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         
