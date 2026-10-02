@@ -16,7 +16,7 @@
 // Input: height = [1,1]
 // Output: 1
 
-class Solution {
+class SolutionBucketWithMostWater {
     public int maxArea(int[] height) {
         int lastElem = height.length - 1;
         int maxArea = calculateMaxArea(0, 0, lastElem, height);
